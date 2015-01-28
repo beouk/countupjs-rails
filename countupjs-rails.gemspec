@@ -9,11 +9,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Richard Tan"]
   spec.email         = ["chardos@gmail.com"]
   spec.summary       = %q{This gem provides countUp.js for your rails application.}
-  spec.description   = %q{}
+  # spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE.txt", "README.md"]  
+  spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
