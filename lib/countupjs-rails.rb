@@ -1,4 +1,4 @@
-require "countupjs/rails/version"
+require "countupjs/version"
 
 module Countupjs
   module Rails
