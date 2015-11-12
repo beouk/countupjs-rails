@@ -10,22 +10,12 @@ Add this line to your application's Gemfile:
 gem 'countupjs-rails'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install countupjs-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+If you don't know how to include js files or your name is Tom Broomfield, please read on...
 
-## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/countupjs-rails/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Include in your application.js file
+```ruby
+//= require countUp
+```
